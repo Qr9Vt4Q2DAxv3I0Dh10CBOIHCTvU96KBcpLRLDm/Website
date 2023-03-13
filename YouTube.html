@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Viewer</title>
     <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://pagination.js.org/dist/2.5.0/pagination.min.js"></script>
+    <link rel="stylesheet" href="https://pagination.js.org/dist/2.5.0/pagination.css">
     <style>
         * {
             margin: 0;
@@ -67,7 +70,7 @@
             text-transform: uppercase;
         }
 
-        td {
+        td { 
             padding: 15px;
             text-align: left;
             vertical-align: middle;
@@ -123,7 +126,7 @@
 <body>
     <div id="selectFile">
         <h1>Please select a file</h1>
-        <input style="margin-left: 165px; color: transparent;" type="file" id="hits"/>
+        <input style="margin-left: 165px; color: transparent;" type="file" id="hits" />
     </div>
     <section hidden>
         <div>
@@ -139,6 +142,7 @@
                         <th>Badge</th>
                         <th>Channel ID</th>
                         <th>Description</th>
+                        <th>Checked</th>
                     </tr>
                 </thead>
                 <tbody class="tbl-content">
@@ -153,8 +157,10 @@
             reader.readAsText(event.target.files[0]);
         }
 
+        let obj;
+
         function onReaderLoad(event) {
-            var obj = JSON.parse(event.target.result);
+            obj = JSON.parse(event.target.result);
             obj.forEach(addToTable);
 
             document.querySelector('section').hidden = false;
@@ -164,7 +170,7 @@
             sorttable.makeSortable(document.querySelector('.sortable'))
         }
 
-        function addToTable(channel) {
+        function addToTable(channel, i) {
             var table = document.querySelector('tbody');
             var row = table.insertRow();
 
@@ -177,6 +183,7 @@
             var cell7 = row.insertCell(6);
             var cell8 = row.insertCell(7);
             var cell9 = row.insertCell(8);
+            var cell10 = row.insertCell(9);
 
             cell1.innerHTML = `<a href="${channel.url}" target="_blank">${channel.url.replace('https://www.youtube.com/user/', '')}</a>`;
             cell2.innerHTML = expandNumber(channel.subscribers).toLocaleString();
@@ -187,6 +194,15 @@
             cell7.innerHTML = channel.badge;
             cell8.innerHTML = channel.externalId;
             cell9.innerHTML = `<button onclick="view(this)" data-desc="${escape(channel.description)}">View</button>`;
+
+
+            cell10.innerHTML = `<input type="checkbox" onchange="remove(this, ${i})" />`;
+        }
+
+        function remove(checkbox, i) {
+            if (checkbox.checked) {
+                checkbox.parentElement.parentElement.remove();
+            }
         }
 
         function view(description) {
