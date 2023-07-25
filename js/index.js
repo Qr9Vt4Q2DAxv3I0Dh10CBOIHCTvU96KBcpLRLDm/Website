@@ -30,11 +30,9 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-            document.getElementById('desc1').innerHTML = 'You';
-            document.getElementById('desc2').innerHTML = 'Found';
-            document.getElementById('desc3').innerHTML = 'The';
-            document.getElementById('desc4').innerHTML = 'Secret';
-            document.getElementById('desc5').innerHTML = 'Congratulations!';
+            document.getElementById('desc1').innerHTML = 'You Found';
+            document.getElementById('desc2').innerHTML = 'The Secret!';
+            document.getElementById('desc3').innerHTML = 'Congratulations!';
 	setTimeout(function(){
                 window.location.replace("https://SeedTe.ch/RR");
             }, 5000);
@@ -449,7 +447,7 @@ Particle.prototype = (function(o) {
 
     // GUI Control
     control = {
-        particleNum: 500
+        particleNum: 750
     };
 
 
@@ -490,14 +488,14 @@ Particle.prototype = (function(o) {
       
         bufferCtx.save();
         bufferCtx.globalCompositeOperation = 'destination-out';
-        bufferCtx.globalAlpha = 0.35;
+        bufferCtx.globalAlpha = 0.35; 
         bufferCtx.fillRect(0, 0, screenWidth, screenHeight);
         bufferCtx.restore();
         len = particles.length;
         bufferCtx.save();
-        bufferCtx.fillStyle = bufferCtx.strokeStyle = '#FFD700';
-        bufferCtx.lineCap = bufferCtx.lineJoin = 'circle';
-        bufferCtx.lineWidth = PARTICLE_RADIUS * 3;
+        bufferCtx.fillStyle = bufferCtx.strokeStyle = '#00ff00'; 
+        bufferCtx.lineCap = bufferCtx.lineJoin = 'circle'; 
+        bufferCtx.lineWidth = PARTICLE_RADIUS * 3; 
         bufferCtx.beginPath();
         for (i = 0; i < len; i++) {
             p = particles[i];
