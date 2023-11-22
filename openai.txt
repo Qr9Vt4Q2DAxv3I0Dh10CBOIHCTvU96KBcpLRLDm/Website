@@ -1,0 +1,62 @@
+11/21/2023
+
+To the Board of Directors of OpenAI:
+
+We are writing to you today to express our deep concern about the recent events at OpenAI, particularly the allegations of misconduct against Sam Altman.
+
+We are former OpenAI employees who left the company during a period of significant turmoil and upheaval. As you have now witnessed what happens when you dare stand up to Sam Altman, perhaps you can understand why so many of us have remained silent for fear of repercussions. We can no longer stand by silent.
+
+We believe that the Board of Directors has a duty to investigate these allegations thoroughly and take appropriate action. We urge you to:
+
+    Expand the scope of Emmett's investigation to include an examination of Sam Altman's actions since August 2018, when OpenAI began transitioning from a non-profit to a for-profit entity.
+
+    Issue an open call for private statements from former OpenAI employees who resigned, were placed on medical leave, or were terminated during this period.
+
+    Protect the identities of those who come forward to ensure that they are not subjected to retaliation or other forms of harm.
+
+We believe that a significant number of OpenAI employees were pushed out of the company to facilitate its transition to a for-profit model. This is evidenced by the fact that OpenAI's employee attrition rate between January 2018 and July 2020 was in the order of 50%.
+
+Throughout our time at OpenAI, we witnessed a disturbing pattern of deceit and manipulation by Sam Altman and Greg Brockman, driven by their insatiable pursuit of achieving artificial general intelligence (AGI). Their methods, however, have raised serious doubts about their true intentions and the extent to which they genuinely prioritize the benefit of all humanity.
+
+Many of us, initially hopeful about OpenAI's mission, chose to give Sam and Greg the benefit of the doubt. However, as their actions became increasingly concerning, those who dared to voice their concerns were silenced or pushed out. This systematic silencing of dissent created an environment of fear and intimidation, effectively stifling any meaningful discussion about the ethical implications of OpenAI's work.
+
+We provide concrete examples of Sam and Greg's dishonesty & manipulation including:
+
+    Sam's demand for researchers to delay reporting progress on specific "secret" research initiatives, which were later dismantled for failing to deliver sufficient results quickly enough. Those who questioned this practice were dismissed as "bad culture fits" and even terminated, some just before Thanksgiving 2019.
+
+    Greg's use of discriminatory language against a gender-transitioning team member. Despite many promises to address this issue, no meaningful action was taken, except for Greg simply avoiding all communication with the affected individual, effectively creating a hostile work environment. This team member was eventually terminated for alleged under-performance.
+
+    Sam directing IT and Operations staff to conduct investigations into employees, including Ilya, without the knowledge or consent of management.
+
+    Sam's discreet, yet routine exploitation of OpenAI's non-profit resources to advance his personal goals, particularly motivated by his grudge against Elon following their falling out.
+
+    The Operations team's tacit acceptance of the special rules that applied to Greg, navigating intricate requirements to avoid being blacklisted.
+
+    Brad Lightcap's unfulfilled promise to make public the documents detailing OpenAI's capped-profit structure and the profit cap for each investor.
+
+    Sam's incongruent promises to research projects for compute quotas, causing internal distrust and infighting.
+
+Despite the mounting evidence of Sam and Greg's transgressions, those who remain at OpenAI continue to blindly follow their leadership, even at significant personal cost. This unwavering loyalty stems from a combination of fear of retribution and the allure of potential financial gains through OpenAI's profit participation units.
+
+The governance structure of OpenAI, specifically designed by Sam and Greg, deliberately isolates employees from overseeing the for-profit operations, precisely due to their inherent conflicts of interest. This opaque structure enables Sam and Greg to operate with impunity, shielded from accountability.
+
+We urge the Board of Directors of OpenAI to take a firm stand against these unethical practices and launch an independent investigation into Sam and Greg's conduct. We believe that OpenAI's mission is too important to be compromised by the personal agendas of a few individuals.
+
+We implore you, the Board of Directors, to remain steadfast in your commitment to OpenAI's original mission and not succumb to the pressures of profit-driven interests. The future of artificial intelligence and the well-being of humanity depend on your unwavering commitment to ethical leadership and transparency.
+
+Sincerely,
+
+Concerned Former OpenAI Employees
+Contact
+
+We encourage former OpenAI employees to contact us at formerly_openai@mail2tor.com. We personally guarantee everyone's anonymity in any internal deliberations and public communications.
+Further Updates
+
+Updates will be posted at https://board.net/p/r.e6a8f6578787a4cc67d4dc438c6d236e
+Further Reading for the General Public
+
+    https://www.technologyreview.com/2020/02/17/844721/ai-openai-moonshot-elon-musk-sam-altman-greg-brockman-messy-secretive-reality/
+
+    https://www.theatlantic.com/technology/archive/2023/11/sam-altman-open-ai-chatgpt-chaos/676050/
+
+    https://twitter.com/geoffreyirving/status/1726754277618491416
